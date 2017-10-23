@@ -14,9 +14,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class LMSConfig{
 	
 	public String driver = "com.mysql.jdbc.Driver";
-	public String url = "jdbc:mysql://gcittest.cnv3b0njilzq.us-east-1.rds.amazonaws.com:3306/library?useSSL=false";
-	public String user = "gcittest";
-	public String password = "gcittest";
+	public String url = "jdbc:mysql://localhost/library?useSSL=false";
+	public String user = "root";
+	public String password = "root";
 	
 	@Bean
 	public BasicDataSource dataSource() {
